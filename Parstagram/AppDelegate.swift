@@ -19,11 +19,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Parse.initialize(
                    with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) -> Void in
-                       configuration.applicationId = "Parstagram"
-                       configuration.server = "https://dashboard.heroku.com/apps/parstagram-kaeley/settings"
+                       configuration.applicationId = "Instagram"
+                       configuration.server = "http://pure-wildwood-89529.herokuapp.com/parse"
+                   //let's seei f we can figure out parse dashboardokok what commands did you run?
+                    
                    }))
         return true
     }
+    
+    /*
+     A lot of issues lol :
+     1) your outlets were not attached properly
+     2) your code didn't allow http loadsa nd your link was http and not https which is secure
+     3) you had wrong app name
+     4) you hadn't set app name in heroku config vars
+     thank you so muich for pointing all of this out!! i was so frustrated omg haha np gluck! thank u see ya!!
+     
+     */
 
     // MARK: UISceneSession Lifecycle
 
