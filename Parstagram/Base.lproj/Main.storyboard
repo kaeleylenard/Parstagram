@@ -110,7 +110,6 @@
                                                 <constraint firstItem="1if-r5-hLA" firstAttribute="leading" secondItem="uGS-jb-7ZL" secondAttribute="trailing" constant="8" id="Bb0-2E-gem"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="NLs-7W-Lhd" secondAttribute="bottom" constant="28" id="DGG-cw-w1z"/>
                                                 <constraint firstItem="1if-r5-hLA" firstAttribute="leading" secondItem="uGS-jb-7ZL" secondAttribute="trailing" constant="8" id="Ev6-NQ-Ofu"/>
-                                                <constraint firstItem="uGS-jb-7ZL" firstAttribute="leading" secondItem="u5q-Yc-93o" secondAttribute="leading" constant="8" id="F7d-in-hAv"/>
                                                 <constraint firstItem="1if-r5-hLA" firstAttribute="top" secondItem="NLs-7W-Lhd" secondAttribute="bottom" constant="8" id="JQW-fs-1ih"/>
                                                 <constraint firstItem="uGS-jb-7ZL" firstAttribute="leading" secondItem="u5q-Yc-93o" secondAttribute="leading" constant="16" id="Jzr-rU-CeI"/>
                                                 <constraint firstItem="uGS-jb-7ZL" firstAttribute="top" secondItem="NLs-7W-Lhd" secondAttribute="bottom" constant="8" id="KlM-o4-9PR"/>
@@ -118,7 +117,6 @@
                                                 <constraint firstAttribute="trailing" secondItem="NLs-7W-Lhd" secondAttribute="trailing" constant="8" id="M63-qE-Tfn"/>
                                                 <constraint firstItem="NLs-7W-Lhd" firstAttribute="top" secondItem="u5q-Yc-93o" secondAttribute="top" constant="8" id="TpR-kr-ebj"/>
                                                 <constraint firstItem="1if-r5-hLA" firstAttribute="leading" secondItem="uGS-jb-7ZL" secondAttribute="trailing" constant="8" id="YqI-wc-SHS"/>
-                                                <constraint firstAttribute="bottom" secondItem="uGS-jb-7ZL" secondAttribute="bottom" constant="25.5" id="acv-dP-QXl"/>
                                                 <constraint firstItem="NLs-7W-Lhd" firstAttribute="leading" secondItem="u5q-Yc-93o" secondAttribute="leading" constant="8" id="wNi-qJ-AYQ"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -164,6 +162,28 @@
                                             <outlet property="commentLabel" destination="jw1-O2-bDo" id="cYt-EA-tbK"/>
                                             <outlet property="nameLabel" destination="NfT-N8-MkC" id="fLq-N1-iQ8"/>
                                         </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="cvH-cN-QIg">
+                                        <rect key="frame" x="0.0" y="462" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cvH-cN-QIg" id="9hF-S7-ll0">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j9c-uX-HSH">
+                                                    <rect key="frame" x="16" y="8" width="136" height="28"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="j9c-uX-HSH" secondAttribute="trailing" constant="8" id="bL9-K0-N5y"/>
+                                                <constraint firstItem="j9c-uX-HSH" firstAttribute="top" secondItem="9hF-S7-ll0" secondAttribute="top" constant="8" id="eyO-Th-zDY"/>
+                                                <constraint firstItem="j9c-uX-HSH" firstAttribute="leading" secondItem="9hF-S7-ll0" secondAttribute="leading" constant="16" id="qvM-uf-xrE"/>
+                                                <constraint firstAttribute="bottom" secondItem="j9c-uX-HSH" secondAttribute="bottom" constant="8" id="xlC-VI-9J8"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
