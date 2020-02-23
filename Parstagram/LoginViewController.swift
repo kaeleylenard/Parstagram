@@ -48,7 +48,6 @@ class LoginViewController: UIViewController {
             }
         }
     }
-    //lemme google this
 
     /*
     // MARK: - Navigation
