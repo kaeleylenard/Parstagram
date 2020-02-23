@@ -93,13 +93,13 @@
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Kale" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGS-jb-7ZL">
                                                     <rect key="frame" x="15" y="358" width="46" height="18"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Throwback Thursday" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1if-r5-hLA">
                                                     <rect key="frame" x="78" y="358" width="145" height="18"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -132,13 +132,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Person" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NfT-N8-MkC">
-                                                    <rect key="frame" x="16" y="8" width="57.5" height="21"/>
+                                                    <rect key="frame" x="16" y="8" width="0.0" height="21"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Sick pic!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jw1-O2-bDo">
-                                                    <rect key="frame" x="80" y="11" width="65" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sick pic!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jw1-O2-bDo">
+                                                    <rect key="frame" x="-8" y="8" width="0.0" height="28"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -147,10 +147,13 @@
                                             <constraints>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="jw1-O2-bDo" secondAttribute="bottom" constant="8" id="Ae3-ya-Skh"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="NfT-N8-MkC" secondAttribute="bottom" constant="8" id="Ehk-AL-U0a"/>
+                                                <constraint firstAttribute="bottom" secondItem="jw1-O2-bDo" secondAttribute="bottom" constant="8" id="bFb-cK-cFo"/>
                                                 <constraint firstItem="NfT-N8-MkC" firstAttribute="leading" secondItem="E4i-hJ-uVZ" secondAttribute="leading" constant="16" id="bHU-qm-S4D"/>
                                                 <constraint firstItem="jw1-O2-bDo" firstAttribute="top" secondItem="E4i-hJ-uVZ" secondAttribute="top" constant="8" id="dM4-QB-bTe"/>
+                                                <constraint firstAttribute="trailing" secondItem="jw1-O2-bDo" secondAttribute="trailing" constant="8" id="hS8-2k-evr"/>
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jw1-O2-bDo" secondAttribute="trailing" constant="8" id="ogN-Fj-WNL"/>
                                                 <constraint firstItem="NfT-N8-MkC" firstAttribute="top" secondItem="E4i-hJ-uVZ" secondAttribute="top" constant="8" id="xGP-XL-O0O"/>
+                                                <constraint firstItem="jw1-O2-bDo" firstAttribute="leading" secondItem="NfT-N8-MkC" secondAttribute="trailing" constant="4" id="xWa-7y-XrA"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
