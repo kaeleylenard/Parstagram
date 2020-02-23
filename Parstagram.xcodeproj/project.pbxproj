@@ -21,6 +21,7 @@
 		C5AF5F4E23FB754700E47D9F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF5F4D23FB754700E47D9F /* LoginViewController.swift */; };
 		C5AF5F5023FB764B00E47D9F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF5F4F23FB764B00E47D9F /* FeedViewController.swift */; };
 		C5B6D71823FCCD4700FF642E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6D71723FCCD4700FF642E /* PostCell.swift */; };
+		C5C3BB11240214A0008A776F /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C3BB10240214A0008A776F /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		C5AF5F4D23FB754700E47D9F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C5AF5F4F23FB764B00E47D9F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		C5B6D71723FCCD4700FF642E /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		C5C3BB10240214A0008A776F /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		D84B2C6FADCCD904BB013518 /* Pods_Parstagram_ParstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram_ParstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 				C5AF5F4F23FB764B00E47D9F /* FeedViewController.swift */,
 				C54A993023FCA6F70050FE66 /* CameraViewController.swift */,
 				C5B6D71723FCCD4700FF642E /* PostCell.swift */,
+				C5C3BB10240214A0008A776F /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				C5AF5F5023FB764B00E47D9F /* FeedViewController.swift in Sources */,
 				C5AB42FF23FB3CDC002E02F6 /* SceneDelegate.swift in Sources */,
 				C5B6D71823FCCD4700FF642E /* PostCell.swift in Sources */,
+				C5C3BB11240214A0008A776F /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
