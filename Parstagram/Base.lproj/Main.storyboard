@@ -91,24 +91,28 @@
                                                         <constraint firstAttribute="width" secondItem="NLs-7W-Lhd" secondAttribute="height" multiplier="345:344" id="uOM-TT-Omp"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Kale" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGS-jb-7ZL">
-                                                    <rect key="frame" x="15" y="358" width="46" height="18"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kale" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGS-jb-7ZL">
+                                                    <rect key="frame" x="16" y="16" width="35.5" height="366"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Throwback Thursday" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1if-r5-hLA">
-                                                    <rect key="frame" x="78" y="358" width="145" height="18"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Throwback Thursday" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1if-r5-hLA">
+                                                    <rect key="frame" x="59.5" y="16" width="161.5" height="366"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="uGS-jb-7ZL" firstAttribute="leading" secondItem="u5q-Yc-93o" secondAttribute="leading" constant="16" id="29g-tk-ECK"/>
+                                                <constraint firstAttribute="bottom" secondItem="uGS-jb-7ZL" secondAttribute="bottom" constant="8" id="4fX-8X-qiH"/>
                                                 <constraint firstItem="1if-r5-hLA" firstAttribute="leading" secondItem="uGS-jb-7ZL" secondAttribute="trailing" constant="8" id="Bb0-2E-gem"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="NLs-7W-Lhd" secondAttribute="bottom" constant="28" id="DGG-cw-w1z"/>
+                                                <constraint firstItem="1if-r5-hLA" firstAttribute="leading" secondItem="uGS-jb-7ZL" secondAttribute="trailing" constant="8" id="Ev6-NQ-Ofu"/>
                                                 <constraint firstItem="uGS-jb-7ZL" firstAttribute="leading" secondItem="u5q-Yc-93o" secondAttribute="leading" constant="8" id="F7d-in-hAv"/>
                                                 <constraint firstItem="1if-r5-hLA" firstAttribute="top" secondItem="NLs-7W-Lhd" secondAttribute="bottom" constant="8" id="JQW-fs-1ih"/>
+                                                <constraint firstItem="uGS-jb-7ZL" firstAttribute="leading" secondItem="u5q-Yc-93o" secondAttribute="leading" constant="16" id="Jzr-rU-CeI"/>
                                                 <constraint firstItem="uGS-jb-7ZL" firstAttribute="top" secondItem="NLs-7W-Lhd" secondAttribute="bottom" constant="8" id="KlM-o4-9PR"/>
                                                 <constraint firstAttribute="bottom" secondItem="1if-r5-hLA" secondAttribute="bottom" constant="8" id="M4N-uo-PmV"/>
                                                 <constraint firstAttribute="trailing" secondItem="NLs-7W-Lhd" secondAttribute="trailing" constant="8" id="M63-qE-Tfn"/>
@@ -132,14 +136,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Person" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NfT-N8-MkC">
-                                                    <rect key="frame" x="16" y="8" width="0.0" height="21"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <rect key="frame" x="16" y="8" width="0.0" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sick pic!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jw1-O2-bDo">
                                                     <rect key="frame" x="-8" y="8" width="0.0" height="28"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
